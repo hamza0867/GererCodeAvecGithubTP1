@@ -17,6 +17,8 @@ fun max1 (xs: int list) =
   else SOME (hd xs)
     end
 
+fun difference_two_pairs(pr1: int * int, pr2: int * int) =
+  ((#1 pr1)- (#1 pr2), (#2 pr1) - (#2 pr2))
 
 
 
